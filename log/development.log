@@ -445,3 +445,8 @@ Cannot render console from 80.101.110.174! Allowed networks: 127.0.0.1, ::1, 127
 Processing by AuthorsController#index as HTML
   [1m[35mAuthor Load (0.6ms)[0m  SELECT "authors".* FROM "authors"
   Rendered authors/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 31ms (Views: 26.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/original/default-4d452c63d330fa4ca5200c3fa437bfd595741d59846222f62704f02365fdbc6c.png" for 80.101.110.174 at 2018-03-20 12:12:08 +0000
+Cannot render console from 80.101.110.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
