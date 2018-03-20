@@ -470,3 +470,4 @@ Processing by AuthorsController#index as HTML
   [1m[35mAuthor Load (0.3ms)[0m  SELECT "authors".* FROM "authors"
   Rendered authors/index.html.erb within layouts/application (4.7ms)
 Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.3ms)
+  [1m[36mAuthor Load (0.2ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE (avatar_file_name IS NOT NULL)  ORDER BY "authors"."id" ASC LIMIT 1000[0m
