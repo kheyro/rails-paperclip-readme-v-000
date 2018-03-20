@@ -471,3 +471,20 @@ Processing by AuthorsController#index as HTML
   Rendered authors/index.html.erb within layouts/application (4.7ms)
 Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.3ms)
   [1m[36mAuthor Load (0.2ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE (avatar_file_name IS NOT NULL)  ORDER BY "authors"."id" ASC LIMIT 1000[0m
+
+
+Started GET "/authors" for 80.101.110.174 at 2018-03-20 12:14:19 +0000
+Cannot render console from 80.101.110.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.3ms)[0m  SELECT "authors".* FROM "authors"
+  Rendered authors/index.html.erb within layouts/application (199.3ms)
+Completed 200 OK in 261ms (Views: 241.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/authors" for 80.101.110.174 at 2018-03-20 12:14:21 +0000
+Cannot render console from 80.101.110.174! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.3ms)[0m  [1mSELECT "authors".* FROM "authors"[0m
+  Rendered authors/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.3ms)
